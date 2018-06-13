@@ -1,6 +1,6 @@
 ## 以太坊项目简介
 
-![以太坊项目](_images/ethereum_logo.png)
+![以太坊项目](http://static.uv-w.com/blockchain_guide/images/ethereum_logo.png)
 
 以太坊（Ethereum）项目的最初目标，是打造一个运行智能合约的平台（Platform for Smart Contract）。该平台支持图灵完备的应用，按照智能合约的约定逻辑自动执行，理想情况下将不存在故障停机、审查、欺诈，以及第三方干预等问题。
 

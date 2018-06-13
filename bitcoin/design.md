@@ -61,7 +61,7 @@
 
 用户可以从 blockchain.info 网站查看实时的交易信息，一个示例交易的内容如下图所示。
 
-![比特币交易的例子](_images/transaction_example.png)
+![比特币交易的例子](http://static.uv-w.com/blockchain_guide/images/transaction_example.png)
 
 #### 交易脚本
 
@@ -127,7 +127,7 @@ scriptSig: <sig> <pubKey>
 
 一个示例区块如下图所示。
 
-![比特币区块的例子](_images/block_example.png)
+![比特币区块的例子](http://static.uv-w.com/blockchain_guide/images/block_example.png)
 
 
 ### 创新设计

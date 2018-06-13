@@ -145,4 +145,4 @@ $ git commit -a --amend
 
 总结，完整的流程如下图所示。
 
-![代码提交流程](_images/patchset-lifecycle.png)
+![代码提交流程](http://static.uv-w.com/blockchain_guide/images/patchset-lifecycle.png)

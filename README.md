@@ -15,7 +15,7 @@
 * epub 版本 [下载](https://www.gitbook.com/download/epub/book/yeasy/blockchain_guide)
 
 ## 进阶学习
-![区块链原理、设计与应用](_images/blockchain_book.png)
+![区块链原理、设计与应用](http://static.uv-w.com/blockchain_guide/images/blockchain_book.png)
 
 《[区块链原理、设计与应用](https://item.jd.com/12159265.html)》已经正式出版，详细介绍了区块链和分布式账本领域的最新技术，基于超级账本项目介绍了面向企业的分布式账本方案的设计、架构和应用，欢迎大家阅读并反馈建议。
 
@@ -36,7 +36,7 @@
 
 欢迎鼓励项目一杯 coffee~
 
-![coffee](_images/coffee.jpeg)
+![coffee](http://static.uv-w.com/blockchain_guide/images/coffee.jpeg)
 
 ## 技术交流
 

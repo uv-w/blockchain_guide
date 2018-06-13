@@ -18,7 +18,7 @@
 
 ### 区块链与分布式记账
 
-![古老的账本](_images/ledger.jpg)
+![古老的账本](http://static.uv-w.com/blockchain_guide/images/ledger.jpg)
 
 记账技术历史悠久，[现代复式记账系统](https://zh.wikipedia.org/wiki/%E5%A4%8D%E5%BC%8F%E7%B0%BF%E8%AE%B0)（Double Entry Bookkeeping）是由意大利数学家卢卡·帕西奥利 1494 年在《Summa de arithmetica, geometrica, proportioni et proportionalità》一书中最早制定。复式记账法对每一笔账目同时记录来源和去向，首次将对账验证功能引入记账过程，提升了记账过程的可靠性。
 

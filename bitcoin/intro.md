@@ -1,6 +1,6 @@
 ## 比特币项目简介
 
-![比特币项目](_images/bitcoin_logo.png)
+![比特币项目](http://static.uv-w.com/blockchain_guide/images/bitcoin_logo.png)
 
 比特币（BitCoin，BTC）是基于区块链技术的一种数字货币实现；比特币网络是历史上首个经过大规模长时间检验的数字货币系统。
 
@@ -14,7 +14,7 @@
 
 下图来自 [blockchain.info](https://blockchain.info/charts/market-price?timespan=all) 网站，可以看到比特币字诞生以来的汇率（以美元为单位）变化历史。
 
-![比特币汇率历史](_images/bitcoin_price.png)
+![比特币汇率历史](http://static.uv-w.com/blockchain_guide/images/bitcoin_price.png)
 
 ### 比特币大事记
 
@@ -80,7 +80,7 @@
 比特币的“成功”，刺激了相关的生态和社区发展，大量类似数字货币（超过 700 种）纷纷出现，比较出名的包括以太币和瑞波（Ripple）币等。
 
 <!--
-![众多的数字货币](_images/coins.png)
+![众多的数字货币](http://static.uv-w.com/blockchain_guide/images/coins.png)
 -->
 
 这些数字货币，要么建立在自己独立的区块链网络上，要么复用已有的区块链（例如比特币网络）系统。全球活跃的数字货币用户据称在 290 万 ~ 580 万之间（参考剑桥大学 Judge 商学院 2017 年 4 月发表的《GLOBAL CRYPTOCURRENCY BENCHMARKING STUDY（全球加密货币基准研究）》报告）。

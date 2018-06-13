@@ -1,6 +1,6 @@
 ## Merkle 树
 
-![Merkle 树示例](_images/Merkle_tree.png)
+![Merkle 树示例](http://static.uv-w.com/blockchain_guide/images/Merkle_tree.png)
 
 
 

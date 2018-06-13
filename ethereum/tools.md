@@ -29,7 +29,7 @@ Geth 的使用需要基本的命令行基础，其功能相对完整，源码托
 
 Mist 是官方提供的一套包含图形界面的钱包客户端，除了可用于进行交易，也支持直接编写和部署智能合约。
 
-![Mist 浏览器](_images/mist.png)
+![Mist 浏览器](http://static.uv-w.com/blockchain_guide/images/mist.png)
 
 所编写的代码编译发布后，可以部署到区块链上。使用者可通过发送调用相应合约方法的交易，来执行智能合约。
 
@@ -49,4 +49,4 @@ Mist 是官方提供的一套包含图形界面的钱包客户端，除了可用
 * ethernodes.org：显示整个网络的历史统计信息，如客户端的分布情况等。
 * dapps.ethercasts.com：查看运行在以太坊上的 DApp 的信息，包括简介、所处阶段和状态等。
 
-![以太坊网络上的 Dapp 信息](_images/dapps.png)
+![以太坊网络上的 Dapp 信息](http://static.uv-w.com/blockchain_guide/images/dapps.png)

@@ -18,18 +18,18 @@ Bluemix 云平台提供的仪表盘（Dashboard）提供了十分直观的管理
 
 如下图所示，用户创建网络后，可以进入 Dashboard 看到属于自己的区块链网络，同时观察各节点的状态，以及与身份认证相关的服务凭证。
 
-![Bluemix 区块链服务仪表盘](_images/bluemix_dashboard.png)
+![Bluemix 区块链服务仪表盘](http://static.uv-w.com/blockchain_guide/images/bluemix_dashboard.png)
 
 对于已经申请到的区块链网络，用户可以通过 Dashboard 对其部署并调用链码，并实时查看响应结果。例如，下图中展示了部署自带的 example02 链码。
 
-![通过 Dashboard 操作链码](_images/bluemix_chaincode.png)
+![通过 Dashboard 操作链码](http://static.uv-w.com/blockchain_guide/images/bluemix_chaincode.png)
 
 对链码的操作会发送交易，进而生成新的区块。可通过 Dashboard 观察与区块链状态、区块内容相关的信息。例如，下图中区块链生成了 4 个区块，并执行了 1 次部署和 2 次调用。
 
-![通过 Dashboard 观察区块链](_images/bluemix_blockchain.png)
+![通过 Dashboard 观察区块链](http://static.uv-w.com/blockchain_guide/images/bluemix_blockchain.png)
 
 平台同时会收集各节点的日志信息，监控和记录服务的运行状态。用户同样可以在 Dashboard 中实时查看。如下图所示，显示了服务和网络的正常运行时间等。
 
-![通过 Dashboard 获取服务状态](_images/bluemix_status.png)
+![通过 Dashboard 获取服务状态](http://static.uv-w.com/blockchain_guide/images/bluemix_status.png)
 
 同时，Bluemix 云平台会将与区块链网络交互所需的 gRPC 或 HTTP 接口地址开放给用户，供用户通过 SDK 等进行远程操作，实现更多跟区块链、链码和应用相关的丰富功能。

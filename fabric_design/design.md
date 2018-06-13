@@ -2,7 +2,7 @@
 
 整个功能架构如下图所示。
 
-![](_images/refarch.png)
+![](http://static.uv-w.com/blockchain_guide/images/refarch.png)
 
 包括三大组件：区块链服务（Blockchain）、链码服务（Chaincode）、成员权限管理（Membership）。
 
@@ -238,7 +238,7 @@ message ChaincodeMessage {
 * 交易证书 TCert：颁发给用户，控制每个交易的权限，一般针对某个交易，短期有效。
 * 通信证书 TLSCert：控制对网络的访问，并且防止窃听。
 
-![](_images/memserv-components.png)
+![](http://static.uv-w.com/blockchain_guide/images/memserv-components.png)
 
 ### 新的架构设计
 目前，VP 节点执行了所有的操作，包括接收交易，进行交易验证，进行一致性达成，进行账本维护等。这些功能的耦合导致节点性能很难进行扩展。
@@ -247,7 +247,7 @@ message ChaincodeMessage {
 
 Fabric 1.0 的设计采用了适当的解耦，根据功能将节点角色解耦开，让不同节点处理不同类型的工作负载。
 
-![示例工作过程](_images/dataflow.png)
+![示例工作过程](http://static.uv-w.com/blockchain_guide/images/dataflow.png)
 
 * 客户端：客户端应用使用 SDK 来跟 Fabric 打交道，构造合法的交易提案提交给 endorser；收集到足够多 endorser 支持后可以构造合法的交易请求，发给 orderer 或代理节点。
 * Endorser peer：负责对来自客户端的交易进行合法性和 ACL 权限检查（模拟交易），通过则签名并返回结果给客户端。
@@ -255,4 +255,4 @@ Fabric 1.0 的设计采用了适当的解耦，根据功能将节点角色解耦
 * Orderer：仅负责排序，给交易们一个全局的排序，一般不需要跟账本和交易内容打交道。
 * CA：负责所有证书的维护，遵循 PKI。
 
-![示例交易过程](_images/transaction_flow.png)
+![示例交易过程](http://static.uv-w.com/blockchain_guide/images/transaction_flow.png)

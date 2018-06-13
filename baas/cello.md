@@ -2,7 +2,7 @@
 
 从前面的讲解中可以看到，区块链服务平台能够有效加速对区块链技术的应用，解决企业和开发者进行手动运营管理的负担。但是这些方案都是商业用途，并且只能在线使用。
 
-![Cello 典型应用场景](_images/cello.png)
+![Cello 典型应用场景](http://static.uv-w.com/blockchain_guide/images/cello.png)
 
 超级账本的 Cello 项目为本地搭建区块链服务管理平台提供了开源的解决方案，可以实现在多种类型的物理资源上实现区块链网络的生命周期管理。
 
@@ -12,7 +12,7 @@
 
 Cello 项目由笔者领导的 IBM 技术团队于 2017 年 1 月贡献到超级账本社区，主要基于 Python 和 Javascript 语言编写。该项目的定位为区块链管理平台，支持部署、运行时管理和数据分析等功能，可以实现一套完整的 BaaS 系统的快速搭建。其基本架构如下图所示。
 
-![Cello 基本架构](_images/cello_arch.png)
+![Cello 基本架构](http://static.uv-w.com/blockchain_guide/images/cello_arch.png)
 
 在实现区块链环境快速部署的同时，Cello 也提供了不少对区块链平台进行运行时管理的特性，这些特性总结如下。
 
@@ -32,7 +32,7 @@ Cello 采用了典型的主从（Master-Worker）架构。用户可以自行准�
 
 下图中展示了一个典型的 Master-Worker 部署拓扑。每个节点默认为 Linux（如 Ubuntu 16.04）服务器或虚拟机。
 
-![Cello 部署拓扑示例](_images/cello_deployment_topo.png)
+![Cello 部署拓扑示例](http://static.uv-w.com/blockchain_guide/images/cello_deployment_topo.png)
 
 为了支持区块链网络，Worker 和 Master 节点需要配备足够的物理资源。例如，如果希望在一个 Worker 节点上能够启动至少 10 个区块链集群，则建议节点配置至少为 8 CPU、16G 内存、100G 硬盘容量。
 
@@ -149,7 +149,7 @@ Cello 服务启动后，管理员可以通过 Cello 的 Dashboard 页面管理�
 
 默认情况下，可通过 Master 节点的 8080 端口访问 Dashboard。默认的登录用户名和密码为 `admin:pass`。
 
-![Cello Dashboard](_images/cello_dashboard.png)
+![Cello Dashboard](http://static.uv-w.com/blockchain_guide/images/cello_dashboard.png)
 
 如图，Dashboard 有多个页面，各页面的功能如下。
 
@@ -166,7 +166,7 @@ Cello 服务启动后，管理员可以通过 Cello 的 Dashboard 页面管理�
 
 在 Hosts 页面，管理员可以管理所有资源池中已存在的主机，或添加新主机。表格中会显示主机的类型、状态、正在运行的区块链数量、区块链数量上限等。所有设定为 non-schedulable (不会自动分配给用户）的主机会用灰色背景标识，如下图所示。
 
-![Hosts 页面](_images/cello_dashboard_hosts.png)
+![Hosts 页面](http://static.uv-w.com/blockchain_guide/images/cello_dashboard_hosts.png)
 
 点击一个主机的 Action 下拉菜单，有如下选项可供操作该主机。
 
@@ -178,13 +178,13 @@ Cello 服务启动后，管理员可以通过 Cello 的 Dashboard 页面管理�
 
 点击 Hosts 页面的 Add Host 按钮，可以向资源池中添加主机。需要设定该主机的名称、Daemon URL 地址（例如，Worker 节点的 docker daemon 监听地址和端口）、链数量上限、日志配置、是否启动区块链至数量上限、是否可向用户自动分配，如下图所示。
 
-![添加主机](_images/cello_dashboard_addhost.png)
+![添加主机](http://static.uv-w.com/blockchain_guide/images/cello_dashboard_addhost.png)
 
 #### Active Chains 页面
 
 Active Chains 页面会显示所有正在运行的链，包括链的名称、类型、状态、健康状况、规模、所属主机等信息。正在被用户占用的链会用灰色背景标识，如下图所示。
 
-![Active Chains 页面](_images/cello_dashboard_activechains.png)
+![Active Chains 页面](http://static.uv-w.com/blockchain_guide/images/cello_dashboard_activechains.png)
 
 点击一条链的 Actions 下拉菜单，有如下选项可供操作该链。
 
@@ -196,7 +196,7 @@ Active Chains 页面会显示所有正在运行的链，包括链的名称、类
 
 点击 Active Chains 页面的 Add Chain 按钮，可以向资源池中添加更多链（如果还有未被占满的主机），如下图所示。
 
-![添加链](_images/cello_dashboard_addcluster.png)
+![添加链](http://static.uv-w.com/blockchain_guide/images/cello_dashboard_addcluster.png)
 
 ### 基于 Cello 进行功能扩展
 Cello 已经提供了完整的区块链管理功能，并提供了图形界面和 API。

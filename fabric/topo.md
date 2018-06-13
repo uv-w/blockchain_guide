@@ -2,7 +2,7 @@
 
 下图是一个简单的 Fabric 网络拓扑示意。
 
-![](_images/network_topo.png)
+![](http://static.uv-w.com/blockchain_guide/images/network_topo.png)
 
 Fabric 在生产环境的部署可以包括一个区块链网络、一个成员管理服务、一个或多个应用程序及对应的链码（即智能合约）。其中，区块链网络由若干验证节点和非验证节点构成。
 

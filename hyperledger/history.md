@@ -5,7 +5,7 @@
 
 2015 年 12 月，开源世界的旗舰——[Linux 基金](http://www.linuxfoundation.org) 会牵头，联合 30 家初始企业成员（包括 IBM、Accenture、Intel、J.P.Morgan、R3、DAH、DTCC、FUJITSU、HITACHI、SWIFT、Cisco 等），共同 [宣告](https://www.hyperledger.org/news/announcement/2016/02/hyperledger-project-announces-30-founding-members) 了 [Hyperledger](https://www.hyperledger.org) 项目的成立。该项目试图打造一个透明、公开、去中心化的分布式账本项目，作为区块链技术的开源规范和标准，让更多的应用能更容易的建立在区块链技术之上。项目官方信息网站在 [hyperledger.org](https://www.hyperledger.org)，
 
-![Hyperledger 项目快速成长](_images/community_growth.png)
+![Hyperledger 项目快速成长](http://static.uv-w.com/blockchain_guide/images/community_growth.png)
 
 目前已经有超过 120 家全球知名企业和机构（大部分均为各自行业的领导者）宣布加入 [Hyperledger](https://www.hyperledger.org/) 项目，其中包括 30 家来自中国本土的企业，包括艾亿新融旗下的艾亿数融科技公司（[2016.05.19](https://www.hyperledger.org/news/announcement/2016/05/hyperledger-project-announces-addition-eight-new-members)）、Onchain（[2016.06.22](https://www.hyperledger.org/news/announcement/2016/06/hyperledger-projects-maintains-strong-momentum-new-members)）、比邻共赢（Belink）信息技术有限公司（2016.06.22）、BitSE（2016.06.22）、布比（[2016.07.27](https://www.hyperledger.org/news/announcement/2016/07/hyperledger-project-has-welcomed-more-60-members-february)）、三一重工（[2016.08.30](https://www.hyperledger.org/news/announcement/2016/08/hyperledger-project-grows-170-percent-six-months)）、万达金融（[2016.09.08](https://www.hyperledger.org/announcements/2016/09/08/hyperledger-welcomes-wanda-as-premier-member)）、华为（[2016.10.24](https://www.hyperledger.org/announcements/2016/10/24/hyperledger-reaches-95-members-ahead-of-money2020)）等。
 
@@ -20,7 +20,7 @@ Hyperledger 社区由技术委员会（Technical Steering Committee，TSC）指�
 ### 主要项目
 代码托管在 [Gerrit](https://gerrit.hyperledger.org) 和 [Github](https://github.com/hyperledger/)（自动从 gerrit 上同步）上。
 
-![Hyperledger](_images/hyperledger.png)
+![Hyperledger](http://static.uv-w.com/blockchain_guide/images/hyperledger.png)
 
 目前主要包括三大账本平台项目和若干其它项目。
 

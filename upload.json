@@ -1,0 +1,9 @@
+{
+  "src_dir": "/Users/uv-w/WebstormProjects/blockchain_guide",
+  "bucket": "uv-w",
+  "overwrite": true,
+  "skip_suffixes": ".sketch,.md,.go,.graffle,.gitignore,.yml,.json,.git",
+  "skip_path_prefixes": ".git,.idea",
+  "key_prefix": "blockchain_guide/images/",
+  "ignore_dir": true
+}
